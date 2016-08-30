@@ -7,7 +7,7 @@
 
 /* Define container width */
 .container{
-	width: 1170px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -17,22 +17,11 @@
 	content:".";
 	height: 0;
 	visibility: hidden;
-	clear: both;
+	clear: both; /* обътекает с двух сторон */
 }
 
 /* Grid */
-.span1 {width: 70px; float:left; display: inline; margin-right: 30px;}
-.span2 {width: 170px; float:left; display: inline; margin-right: 30px;}
-.span3 {width: 270px; float:left; display: inline; margin-right: 30px;}
-.span4 {width: 370px; float:left; display: inline; margin-right: 30px;}
-.span5 {width: 470px; float:left; display: inline; margin-right: 30px;}
-.span6 {width: 570px; float:left; display: inline; margin-right: 30px;}
-.span7 {width: 670px; float:left; display: inline; margin-right: 30px;}
-.span8 {width: 770px; float:left; display: inline; margin-right: 30px;}
-.span9 {width: 870px; float:left; display: inline; margin-right: 30px;}
-.span10{width: 970px; float:left; display: inline; margin-right: 30px;}
-.span11{width: 1070px; float:left; display: inline; margin-right: 30px;}
-.span12{width: 1170px; float:left; display: inline; margin-right: 30px;}
+
 
 
 .span-half{width: 50%; float: left;}
@@ -53,19 +42,8 @@
 .span12:last-child, .span-lg-12:last-child{margin-right: 0}
 
 /* Offset styles */
-.span-offset1 {margin-left: 100px;}
-.span-offset2 {margin-left: 200px;}
-.span-offset3 {margin-left: 300px;}
-.span-offset4 {margin-left: 400px;}
-.span-offset5 {margin-left: 500px;}
-.span-offset6 {margin-left: 600px;}
-.span-offset7 {margin-left: 700px;}
-.span-offset8 {margin-left: 800px;}
-.span-offset9 {margin-left: 900px;}
-.span-offset10{margin-left: 1000px;}
-.span-offset11{margin-left: 1100px;}
-.span-offset12{margin-left: 1170px;}
-/*
+
+
 .span1 {width: 8.33%; float:left; display: inline; padding-right: 30px;}
 .span2 {width: 16.66%; float:left; display: inline; padding-right: 30px;}
 .span3 {width: 25%; float:left; display: inline; padding-right: 30px;}
@@ -90,7 +68,7 @@
 .span-offset9 {margin-left: 75%;} 
 .span-offset10{margin-left: 83.33%;}
 .span-offset11{margin-left: 91.66%;}
-.span-offset12{margin-left: 100%;}*/
+.span-offset12{margin-left: 100%;}
 /* Media queries */
 /*
 @media screen and (max-width: 1170px){
